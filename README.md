@@ -67,7 +67,7 @@ Please note that this base code is intended to demonstrate how to fetch weather 
 If you have any further questions or need more assistance, feel free to ask!
 
 ## The explanation
-Here's a step-by-step explanation of the code:
+I wanted to provide a step-by-step explanation of the code:
 
 Importing the ```requests``` library: The script starts by importing the ```requests``` library, which allows making HTTP requests to external APIs.
 
@@ -89,7 +89,7 @@ Printing the weather information: If the API call was successful, the script pri
 
 Handling invalid requests: If the API call was not successful (status code other than 200), the script prints "not valid, Please try again."
 
-Please note that to run this code successfully, you need to have a valid API key from OpenWeatherMap and the requests library installed in your Python environment. You can install the requests library using the following command:
+Please note (i know this is the second time i've said it) that to run this code successfully, you need to have a valid API key from OpenWeatherMap and the requests library installed in your Python environment. You can install the requests library using the following command:
 
 ```bash
 pip install requests
