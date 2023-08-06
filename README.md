@@ -1,19 +1,44 @@
-# Weather Whisper
-"Weather Whisper" is a Python script that acts as your reliable personal weather information assistant. With this code, you can effortlessly fetch real-time weather data for any city in the world. Using the OpenWeatherMap API, WeatherWhisper provides you with valuable details such as weather descriptions, current temperatures, and feels-like temperatures, all conveniently converted to Fahrenheit.
+# WeatherWhisper - Your Weather Forecast Assistant
 
-Simply input the name of your desired city, and WeatherWhisper will work its magic to gather the most up-to-date weather information for you. Whether you're planning a trip, preparing for your daily activities, or just curious about the weather in a specific location, WeatherWhisper is here to whisper the answers to your weather-related queries.
+WeatherWhisper is a simple and intuitive Python GUI application that helps you fetch real-time weather data for any city around the world. With a beautiful and user-friendly interface built using tkinter, WeatherWhisper allows you to quickly check the current weather conditions, temperature, and feels-like temperature in both Celsius and Fahrenheit.
 
-Stay informed and stay ahead with WeatherWhisper - your dedicated companion for weather updates \
 
-https://github.com/yannixeno/Weather-Whisper/assets/108096250/727403cf-0410-4e57-a8ca-626588c1ad0e
+
+# Features
+- Easy-to-Use Interface: WeatherWhisper provides a hassle-free experience with an elegant and straightforward user interface. Simply enter the name of your desired city, click "Get Weather," and get instant weather updates!
+
+- Switchable Temperature Units: WeatherWhisper lets you view temperatures in both Celsius and Fahrenheit units. Just click the "Switch Units" button to toggle between them.
+
+- Real-Time Data: The application fetches weather data from the OpenWeatherMap API, ensuring you receive up-to-date and accurate weather information.
+
+- Error Handling: WeatherWhisper gracefully handles various scenarios, such as invalid city names, connection errors, and API-related issues, ensuring a smooth user experience.
+
+# Getting Started
+To use Weather Whisper, you'll need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/).. Don't worry; it's a quick and easy process! Just follow the steps provided in the [Setup Guide](https://openweathermap.org/appid) to acquire your API key and configure the application.
 
 
 # Dependency
-Please get your API key from here to make this code work
-https://openweathermap.org/
+To run WeatherWhisper, you'll need the following dependencies installed in your Python environment:
+
+- [Python](https://www.python.org/): The programming language used to build the application.
+- [tkinter](https://docs.python.org/3/library/tkinter.html): The standard GUI library for Python.
+- [requests](https://docs.python-requests.org/en/latest/): A powerful HTTP library to make API requests.
+- [configparser](https://docs.python.org/3/library/configparser.html): A module to work with configuration files.
+
+You can install the necessary Python packages using pip. For example:
+
+```bash
+pip install requests
+```
+
+# How to run 
+1. Clone the repository to your local machine.
+2. Make sure you have Python and the required libraries (tkinter, requests, configparser) installed.
+3. Add your API key to the config.ini file as per the provided Setup Guide.
+4. Run the weatherwhisper.py script to launch the WeatherWhisper application.
 
 
-# The Code 
+# Base Code - Fetch Weather Data with OpenWeatherMap API
 ```python
 import requests
 
@@ -37,7 +62,11 @@ else:
     print("not valid, Please try again.")
 ```
 
-# The explanation
+Please note that this base code is intended to demonstrate how to fetch weather data using the OpenWeatherMap API using the requests library. For the full functionality and GUI application, you can refer to the WeatherWhisper project provided in this repository.
+
+If you have any further questions or need more assistance, feel free to ask!
+
+## The explanation
 Here's a step-by-step explanation of the code:
 
 Importing the ```requests``` library: The script starts by importing the ```requests``` library, which allows making HTTP requests to external APIs.
@@ -65,6 +94,14 @@ Please note that to run this code successfully, you need to have a valid API key
 ```bash
 pip install requests
 ```
+# License 
+WeatherWhisper is licensed under the MIT License, allowing you to use, modify, and distribute the code freely. See the LICENSE file for more information.
+# About the Author
+WeatherWhisper was developed by Yanni X. I created this project to practice my Python skills and build a useful weather forecast tool for everyone to enjoy. I hope you find it helpful and that you have fun using it!
+
+If you have any questions, feedback, or issues, don't hesitate to reach out. Enjoy your weather whispering experience! 😊
+
+<sub>WeatherWhisper is a personal project and not affiliated with OpenWeatherMap. Please review the OpenWeatherMap API terms and conditions when using the application.</sub>
 
 # The end 
 With the help of the OpenWeatherMap API and the "requests" library, we embarked on a journey to discover real-time weather information for cities around the world. "WeatherWhisper" gracefully provided us with weather descriptions, temperatures, and feels-like values, all at the tip of our fingers. 🌍
