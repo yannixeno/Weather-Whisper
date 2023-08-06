@@ -3,6 +3,15 @@
 WeatherWhisper is a simple and intuitive Python GUI application that helps you fetch real-time weather data for any city around the world. With a beautiful and user-friendly interface built using tkinter, WeatherWhisper allows you to quickly check the current weather conditions, temperature, and feels-like temperature in both Celsius and Fahrenheit.
 
 
+![ezgif com-video-to-gif (1)](https://github.com/yannixeno/Weather-Whisper/assets/108096250/474d4b9b-3152-4361-a170-972aa7117c4c)
+
+![ezgif com-video-to-gif (4)](https://github.com/yannixeno/Weather-Whisper/assets/108096250/b77027f4-a107-4ef2-ad88-28f5ad0d9922)
+
+
+
+
+
+
 
 # Features
 - Easy-to-Use Interface: WeatherWhisper provides a hassle-free experience with an elegant and straightforward user interface. Simply enter the name of your desired city, click "Get Weather," and get instant weather updates!
@@ -94,8 +103,25 @@ Please note (i know this is the second time i've said it) that to run this code 
 ```bash
 pip install requests
 ```
-# License 
-WeatherWhisper is licensed under the MIT License, allowing you to use, modify, and distribute the code freely. See the LICENSE file for more information.
+
+
+# config.ini - Configuration File for Weather Whisper
+The config.ini file plays a crucial role in the WeatherWhisper application, as it securely stores the API key required to access the OpenWeatherMap API. This configuration file ensures that the sensitive API key remains separate from the application's code, enhancing security and maintainability.
+
+### purpose
+The purpose of the config.ini file is to provide a centralized location for storing configuration parameters and settings that can be easily accessed and modified without altering the application's source code. In the case of WeatherWhisper, it serves as a container for the API key required to make requests to the OpenWeatherMap API.
+
+### How to use
+When setting up WeatherWhisper for the first time, the user needs to obtain their personal API key from the OpenWeatherMap website. Once obtained, the user must open the config.ini file with a text editor and replace the placeholder "your_api_key_here" with their actual API key. It is crucial to ensure that the API key is kept confidential and not shared with others, as it grants access to the OpenWeatherMap API under the user's account.
+
+
+### Enhancing Security
+By storing the API key in the config.ini file, WeatherWhisper avoids hardcoding sensitive information directly into the source code. This practice enhances security by reducing the risk of accidental exposure of the API key or unwanted disclosure when sharing code repositories with other developers.
+
+### Conclusion
+The config.ini file is a vital component of WeatherWhisper, providing a safe and convenient way to store the API key necessary for accessing real-time weather data from the OpenWeatherMap API. By using this configuration file, WeatherWhisper demonstrates best practices for secure and configurable application development.
+
+
 # About the Author
 WeatherWhisper was developed by Yanni X. I created this project to practice my Python skills and build a useful weather forecast tool for everyone to enjoy. I hope you find it helpful and that you have fun using it!
 
@@ -103,12 +129,17 @@ If you have any questions, feedback, or issues, don't hesitate to reach out. Enj
 
 <sub>WeatherWhisper is a personal project and not affiliated with OpenWeatherMap. Please review the OpenWeatherMap API terms and conditions when using the application.</sub>
 
+
 # The end 
-With the help of the OpenWeatherMap API and the "requests" library, we embarked on a journey to discover real-time weather information for cities around the world. "WeatherWhisper" gracefully provided us with weather descriptions, temperatures, and feels-like values, all at the tip of our fingers. 🌍
+Thank you for exploring Weather Whisper - Your Weather Forecast Assistant! 🌤️
 
-A heartfelt thank you to our users for joining us on this meteorological expedition. We hope "WeatherWhisper" served you well in your weather-related quests. 🌈
+Weather Whisper was designed with simplicity and convenience in mind, empowering you to effortlessly access real-time weather data for any city worldwide. With its user-friendly interface, switchable temperature units, and robust error handling, WeatherWhisper provides an enjoyable weather forecasting experience.
 
-As we bid adieu to this weather wonder, we wish you sunny days, cozy evenings, and calm winds in all your future endeavors. Stay curious, stay informed, and stay weather-wise! ☀️🌧️❄️
+Throughout this project, we've learned how to interact with external APIs, securely store configuration settings, and build an intuitive GUI using tkinter. It has been a journey of exploration, growth, and creating a useful tool to keep you informed about the weather with just a few clicks.
+
+We welcome your feedback and contributions to make WeatherWhisper even better. Your valuable insights and contributions are essential in shaping the future of this project and making it a valuable resource for weather enthusiasts worldwide.
+
+As we conclude this project, we hope that WeatherWhisper has brought a touch of sunshine into your life, keeping you informed and prepared for whatever the weather may bring. Happy weather whispering! ☀️🌧️❄️
 
 Until we meet again,
 Yanni X.
