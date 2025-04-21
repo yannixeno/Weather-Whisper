@@ -26,8 +26,8 @@ WeatherWhisper is a simple and intuitive Python GUI application that helps you f
 To use Weather Whisper, you'll need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/).. Don't worry; it's a quick and easy process! Just follow the steps provided in the [Setup Guide](https://openweathermap.org/appid) to acquire your API key and configure the application.
 
 
-# Dependency
-To run WeatherWhisper, you'll need the following dependencies installed in your Python environment:
+# Dependencies
+You'll need the following dependencies installed in your Python environment:
 
 - [Python](https://www.python.org/): The programming language used to build the application.
 - [tkinter](https://docs.python.org/3/library/tkinter.html): The standard GUI library for Python.
@@ -73,8 +73,6 @@ else:
 
 Please note that this base code is intended to demonstrate how to fetch weather data using the OpenWeatherMap API using the requests library. For the full functionality and GUI application, you can refer to the WeatherWhisper project provided in this repository.
 
-If you have any further questions or need more assistance, feel free to ask!
-
 ## The explanation
 I wanted to provide a step-by-step explanation of the code:
 
@@ -118,28 +116,5 @@ When setting up WeatherWhisper for the first time, the user needs to obtain thei
 ### Enhancing Security
 By storing the API key in the config.ini file, WeatherWhisper avoids hardcoding sensitive information directly into the source code. This practice enhances security by reducing the risk of accidental exposure of the API key or unwanted disclosure when sharing code repositories with other developers.
 
-### Conclusion
+### Wrap Up
 The config.ini file is a vital component of WeatherWhisper, providing a safe and convenient way to store the API key necessary for accessing real-time weather data from the OpenWeatherMap API. By using this configuration file, WeatherWhisper demonstrates best practices for secure and configurable application development.
-
-
-# About the Author
-WeatherWhisper was developed by Yanni X. I created this project to practice my Python skills and build a useful weather forecast tool for everyone to enjoy. I hope you find it helpful and that you have fun using it!
-
-If you have any questions, feedback, or issues, don't hesitate to reach out. Enjoy your weather whispering experience! 😊
-
-<sub>WeatherWhisper is a personal project and not affiliated with OpenWeatherMap. Please review the OpenWeatherMap API terms and conditions when using the application.</sub>
-
-
-# The end 
-Thank you for exploring Weather Whisper - Your Weather Forecast Assistant! 🌤️
-
-Weather Whisper was designed with simplicity and convenience in mind, empowering you to effortlessly access real-time weather data for any city worldwide. With its user-friendly interface, switchable temperature units, and robust error handling, WeatherWhisper provides an enjoyable weather forecasting experience.
-
-Throughout this project, we've learned how to interact with external APIs, securely store configuration settings, and build an intuitive GUI using tkinter. It has been a journey of exploration, growth, and creating a useful tool to keep you informed about the weather with just a few clicks.
-
-We welcome your feedback and contributions to make WeatherWhisper even better. Your valuable insights and contributions are essential in shaping the future of this project and making it a valuable resource for weather enthusiasts worldwide.
-
-As we conclude this project, we hope that WeatherWhisper has brought a touch of sunshine into your life, keeping you informed and prepared for whatever the weather may bring. Happy weather whispering! ☀️🌧️❄️
-
-Until we meet again,
-Yanni X.
